@@ -1,0 +1,2646 @@
+fileFormatVersion: 2
+guid: fd7f427abb4ece2448755652792629b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5654083910335648924
+    second: Export_EX 2_0
+  - first:
+      213: -2854270746917041903
+    second: Export_EX 2_1
+  - first:
+      213: 5161073051732390935
+    second: Export_EX 2_6
+  - first:
+      213: 9037713671503850900
+    second: Export_EX 2_7
+  - first:
+      213: 6216605260977066859
+    second: Export_EX 2_8
+  - first:
+      213: -5846542348037708189
+    second: Export_EX 2_9
+  - first:
+      213: 2881011669505012873
+    second: Export_EX 2_10
+  - first:
+      213: 8778518177927616428
+    second: Export_EX 2_11
+  - first:
+      213: -3585154080034614059
+    second: Export_EX 2_12
+  - first:
+      213: 6696981403406263006
+    second: Export_EX 2_13
+  - first:
+      213: 5374464856737131339
+    second: Export_EX 2_14
+  - first:
+      213: -8445133382013628666
+    second: Export_EX 2_15
+  - first:
+      213: 111580589646428983
+    second: Export_EX 2_16
+  - first:
+      213: 5859064306098902582
+    second: Export_EX 2_17
+  - first:
+      213: -7012261855320379944
+    second: Export_EX 2_18
+  - first:
+      213: -5488440318447421684
+    second: Export_EX 2_19
+  - first:
+      213: -6530121748577348487
+    second: Export_EX 2_20
+  - first:
+      213: 1800584767278167601
+    second: Export_EX 2_21
+  - first:
+      213: 7060819922821891463
+    second: Export_EX 2_22
+  - first:
+      213: -5766535676997606348
+    second: Export_EX 2_23
+  - first:
+      213: 8372032055601324279
+    second: Export_EX 2_24
+  - first:
+      213: -6619939474172264726
+    second: Export_EX 2_25
+  - first:
+      213: -7837534476072088286
+    second: Export_EX 2_26
+  - first:
+      213: 7493981048584022111
+    second: Export_EX 2_27
+  - first:
+      213: -4435854240367240555
+    second: Export_EX 2_28
+  - first:
+      213: -3806443465335051252
+    second: Export_EX 2_29
+  - first:
+      213: 4970574558878258725
+    second: Export_EX 2_30
+  - first:
+      213: -7685707750697992583
+    second: Export_EX 2_31
+  - first:
+      213: -1359715232533951456
+    second: Export_EX 2_32
+  - first:
+      213: -7741345555568465924
+    second: Export_EX 2_33
+  - first:
+      213: -6253645468503016871
+    second: Export_EX 2_34
+  - first:
+      213: -588224273748480042
+    second: Export_EX 2_35
+  - first:
+      213: -5479203005567980847
+    second: Export_EX 2_2
+  - first:
+      213: -1304511671351284000
+    second: Export_EX 2_3
+  - first:
+      213: 657957993875678368
+    second: Export_EX 2_4
+  - first:
+      213: -325833316010809440
+    second: Export_EX 2_5
+  - first:
+      213: -3616019634824207329
+    second: Export_EX 2_36
+  - first:
+      213: -7125263384547869321
+    second: Export_EX 2_37
+  - first:
+      213: -804743720236831863
+    second: Export_EX 2_38
+  - first:
+      213: -2423820332183528106
+    second: Export_EX 2_39
+  - first:
+      213: -5780293465706991117
+    second: Export_EX 2_40
+  - first:
+      213: -2003886467919432504
+    second: Export_EX 2_41
+  - first:
+      213: -4611600600627847274
+    second: Export_EX 2_42
+  - first:
+      213: 4692362411106730959
+    second: Export_EX 2_43
+  - first:
+      213: -9019048165997604691
+    second: Export_EX 2_44
+  - first:
+      213: -9157052970175788656
+    second: Export_EX 2_45
+  - first:
+      213: 1716092113354490883
+    second: Export_EX 2_46
+  - first:
+      213: -7142551042975681923
+    second: Export_EX 2_47
+  - first:
+      213: 87451063516225480
+    second: Export_EX 2_48
+  - first:
+      213: -1455864115785172513
+    second: Export_EX 2_49
+  - first:
+      213: -6489208316607118271
+    second: Export_EX 2_50
+  - first:
+      213: 953149398595585537
+    second: Export_EX 2_51
+  - first:
+      213: 6634653254724577165
+    second: Export_EX 2_52
+  - first:
+      213: -4298229928188435604
+    second: Export_EX 2_53
+  - first:
+      213: 4490556423506988752
+    second: Export_EX 2_54
+  - first:
+      213: -2999472664641591430
+    second: Export_EX 2_55
+  - first:
+      213: 4179021431674126914
+    second: Export_EX 2_56
+  - first:
+      213: 5152777188444476876
+    second: Export_EX 2_57
+  - first:
+      213: -2339866867300759647
+    second: Export_EX 2_58
+  - first:
+      213: 5691526597803455405
+    second: Export_EX 2_59
+  - first:
+      213: -6025582301343152467
+    second: 2
+  - first:
+      213: 3825877665071187767
+    second: Export_EX 2_61
+  - first:
+      213: -5786799051534333484
+    second: Export_EX 2_62
+  - first:
+      213: -6695948575796618793
+    second: 1
+  - first:
+      213: -7631618128233588015
+    second: 3
+  - first:
+      213: -1785397325894135977
+    second: Export_EX 2_65
+  - first:
+      213: 319766897540946612
+    second: Export_EX 2_66
+  - first:
+      213: 6188667219809873777
+    second: Export_EX 2_67
+  - first:
+      213: -1502052320067787024
+    second: Export_EX 2_68
+  - first:
+      213: -1607906557840985933
+    second: 7
+  - first:
+      213: -8123214901200252136
+    second: Export_EX 2_70
+  - first:
+      213: -2743015539662455997
+    second: Export_EX 2_71
+  - first:
+      213: 8112506138219079489
+    second: Export_EX 2_72
+  - first:
+      213: 8662251373382655738
+    second: Export_EX 2_73
+  - first:
+      213: 3857089275029892856
+    second: Export_EX 2_74
+  - first:
+      213: -3464600118901071259
+    second: Export_EX 2_75
+  - first:
+      213: -2133608999161888224
+    second: 4
+  - first:
+      213: -987611338767728562
+    second: Export_EX 2_77
+  - first:
+      213: -7422050266786291835
+    second: Export_EX 2_78
+  - first:
+      213: -3146669873888450061
+    second: Export_EX 2_79
+  - first:
+      213: 210583862653194057
+    second: Export_EX 2_80
+  - first:
+      213: 1549641750039656491
+    second: 5
+  - first:
+      213: -909526257118577251
+    second: Export_EX 2_82
+  - first:
+      213: -9162296840455793298
+    second: Export_EX 2_83
+  - first:
+      213: -1716600406878007415
+    second: Export_EX 2_84
+  - first:
+      213: 5674965279289390266
+    second: Export_EX 2_85
+  - first:
+      213: 6837008696163517164
+    second: Export_EX 2_86
+  - first:
+      213: 7865848816412079582
+    second: Export_EX 2_87
+  - first:
+      213: -9085690423495945483
+    second: Export_EX 2_88
+  - first:
+      213: -3380936338111721425
+    second: Export_EX 2_89
+  - first:
+      213: 4335676236510457515
+    second: 6
+  - first:
+      213: 311454268477753313
+    second: Export_EX 2_91
+  - first:
+      213: 8200037106617285390
+    second: Export_EX 2_92
+  - first:
+      213: 1040281407643138468
+    second: Export_EX 2_93
+  - first:
+      213: -8436040706800516304
+    second: Export_EX 2_94
+  - first:
+      213: 1179662340166981003
+    second: Export_EX 2_95
+  - first:
+      213: -8954864689738556030
+    second: Export_EX 2_96
+  - first:
+      213: 5052702232747324865
+    second: Export_EX 2_97
+  - first:
+      213: -5083556367466959581
+    second: Export_EX 2_98
+  - first:
+      213: 4278598767083238147
+    second: Export_EX 2_99
+  - first:
+      213: -4786567103148696517
+    second: Export_EX 2_100
+  - first:
+      213: 1025289364781847176
+    second: Export_EX 2_101
+  - first:
+      213: -6337576069898346332
+    second: Export_EX 2_102
+  - first:
+      213: 6590747716636116084
+    second: Export_EX 2_103
+  - first:
+      213: -6889279743029327399
+    second: Export_EX 2_104
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Export_EX 2_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3805
+        width: 1143
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b2132e3a8a881b0800000000000000
+      internalID: -5654083910335648924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_1
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 3945
+        width: 418
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1198835d0e79368d0800000000000000
+      internalID: -2854270746917041903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_2
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 3838
+        width: 214
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da2ed085e5f5f3b0800000000000000
+      internalID: -5479203005567980847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_3
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 3838
+        width: 216
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee61c7eb8175ede0800000000000000
+      internalID: -1304511671351284000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_4
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3838
+        width: 214
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4a6163f49812900800000000000000
+      internalID: 657957993875678368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_5
+      rect:
+        serializedVersion: 2
+        x: 2258
+        y: 3838
+        width: 214
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7203f43586a7bf0800000000000000
+      internalID: -325833316010809440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_6
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 3838
+        width: 215
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714b9549890df9740800000000000000
+      internalID: 5161073051732390935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_7
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 3838
+        width: 214
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dadab43b86c6d70800000000000000
+      internalID: 9037713671503850900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_8
+      rect:
+        serializedVersion: 2
+        x: 2915
+        y: 3838
+        width: 216
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63dc514c81d54650800000000000000
+      internalID: 6216605260977066859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_9
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 3838
+        width: 216
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3662fe4f5b8ecdea0800000000000000
+      internalID: -5846542348037708189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_10
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 3838
+        width: 214
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984f99269d86bf720800000000000000
+      internalID: 2881011669505012873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_11
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 3838
+        width: 216
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca75fa1b5cf83d970800000000000000
+      internalID: 8778518177927616428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_12
+      rect:
+        serializedVersion: 2
+        x: 3793
+        y: 3838
+        width: 214
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d49e72fb59fe3ec0800000000000000
+      internalID: -3585154080034614059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_13
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 3822
+        width: 418
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed26d61ba1570fc50800000000000000
+      internalID: 6696981403406263006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_14
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3544
+        width: 1143
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b23a3ef4fe59a40800000000000000
+      internalID: 5374464856737131339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_15
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 3591
+        width: 213
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fc84ceeebdcca80800000000000000
+      internalID: -8445133382013628666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_16
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 3591
+        width: 215
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b34b184f96c8100800000000000000
+      internalID: 111580589646428983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_17
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 3591
+        width: 216
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636123991f39f4150800000000000000
+      internalID: 5859064306098902582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_18
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 3591
+        width: 214
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd6b91cef07fae90800000000000000
+      internalID: -7012261855320379944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_19
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 3591
+        width: 215
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0772000c9425d3b0800000000000000
+      internalID: -5488440318447421684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_20
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 3591
+        width: 214
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9749ef32ed85065a0800000000000000
+      internalID: -6530121748577348487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_21
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 3591
+        width: 214
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13638915e46fcf810800000000000000
+      internalID: 1800584767278167601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_22
+      rect:
+        serializedVersion: 2
+        x: 2757
+        y: 3591
+        width: 579
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785ccca5f421df160800000000000000
+      internalID: 7060819922821891463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_23
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 3697
+        width: 478
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434e0fbaa5629ffa0800000000000000
+      internalID: -5766535676997606348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_24
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 3601
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0ec423cce6f2470800000000000000
+      internalID: 8372032055601324279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_25
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 3600
+        width: 73
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee30674f104124a0800000000000000
+      internalID: -6619939474172264726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_26
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 3601
+        width: 98
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d88d64beb7b3390800000000000000
+      internalID: -7837534476072088286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_27
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 3281
+        width: 1143
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f582c521f08fff760800000000000000
+      internalID: 7493981048584022111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_28
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 3392
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a108f021ea072c0800000000000000
+      internalID: -4435854240367240555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_29
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 3180
+        width: 405
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ce81fe5dbcc2bc0800000000000000
+      internalID: -3806443465335051252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_30
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 3203
+        width: 382
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526588fd9370bf440800000000000000
+      internalID: 4970574558878258725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_31
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 3390
+        width: 259
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97efd287581e65590800000000000000
+      internalID: -7685707750697992583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_32
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 3390
+        width: 259
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c40293332512de0800000000000000
+      internalID: -1359715232533951456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_33
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 3390
+        width: 258
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7eacc8b37319490800000000000000
+      internalID: -7741345555568465924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_34
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 3413
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a75a264969639a0800000000000000
+      internalID: -6253645468503016871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_35
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 3413
+        width: 147
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfa5fab32536d7f0800000000000000
+      internalID: -588224273748480042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_36
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 3508
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f142775fc4151ddc0800000000000000
+      internalID: -3616019634824207329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_37
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 3506
+        width: 73
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d3de8f3bafd1d90800000000000000
+      internalID: -7125263384547869321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_38
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 3508
+        width: 98
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bae04a9d9f4d4f0800000000000000
+      internalID: -804743720236831863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_39
+      rect:
+        serializedVersion: 2
+        x: 3613
+        y: 3508
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dd4d4ff3cdc5ed0800000000000000
+      internalID: -2423820332183528106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_40
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 3413
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1f50fd7b548cfa0800000000000000
+      internalID: -5780293465706991117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_41
+      rect:
+        serializedVersion: 2
+        x: 3428
+        y: 3412
+        width: 73
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4337ddfd3c034e0800000000000000
+      internalID: -2003886467919432504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_42
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 3412
+        width: 98
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f5991efad4000c0800000000000000
+      internalID: -4611600600627847274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_43
+      rect:
+        serializedVersion: 2
+        x: 2211
+        y: 3281
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3896f60ce9e1140800000000000000
+      internalID: 4692362411106730959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_44
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 3270
+        width: 296
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0139d5a77e5d280800000000000000
+      internalID: -9019048165997604691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_45
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 3341
+        width: 744
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0998c3bf6dc9be080800000000000000
+      internalID: -9157052970175788656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_46
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 3296
+        width: 744
+        height: 42
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30408525fa8c0d710800000000000000
+      internalID: 1716092113354490883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_47
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1717
+        width: 1346
+        height: 1559
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72b6555baf80ec90800000000000000
+      internalID: -7142551042975681923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_48
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 3252
+        width: 401
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf5d186740b63100800000000000000
+      internalID: 87451063516225480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_49
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2724
+        width: 309
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9f269dc4bbbcbe0800000000000000
+      internalID: -1455864115785172513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_50
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 2724
+        width: 309
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1444f17da63b1f5a0800000000000000
+      internalID: -6489208316607118271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_51
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 2885
+        width: 257
+        height: 277
+      alignment: 9
+      pivot: {x: 0.029813655, y: 0.073165506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106ca29f3544a3d00800000000000000
+      internalID: 953149398595585537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_52
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 2885
+        width: 257
+        height: 277
+      alignment: 9
+      pivot: {x: 0.029629363, y: 0.072888754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d876fb7bbf5031c50800000000000000
+      internalID: 6634653254724577165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_53
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 2851
+        width: 363
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63206f37ae9954c0800000000000000
+      internalID: -4298229928188435604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_54
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 2851
+        width: 363
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de8bf27649a15e30800000000000000
+      internalID: 4490556423506988752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_55
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 2851
+        width: 363
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a772b8ed08bbf56d0800000000000000
+      internalID: -2999472664641591430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_56
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 2853
+        width: 385
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2424ea7c9dddef930800000000000000
+      internalID: 4179021431674126914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_57
+      rect:
+        serializedVersion: 2
+        x: 4116
+        y: 2853
+        width: 387
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc518f36d87528740800000000000000
+      internalID: 5152777188444476876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_58
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 2461
+        width: 363
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a705d83b7f178fd0800000000000000
+      internalID: -2339866867300759647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_59
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 2722
+        width: 116
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da333c3294d5cfe40800000000000000
+      internalID: 5691526597803455405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 2599
+        width: 191
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da68f8362d4d06ca0800000000000000
+      internalID: -6025582301343152467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_61
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 2620
+        width: 160
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7374bac477f381530800000000000000
+      internalID: 3825877665071187767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_62
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1957
+        width: 1360
+        height: 685
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d98ab22ce821bfa0800000000000000
+      internalID: -5786799051534333484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 4226
+        y: 2425
+        width: 151
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d91c593f363313a0800000000000000
+      internalID: -6695948575796618793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_67
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 2220
+        width: 198
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f2fd52c0092e550800000000000000
+      internalID: 6188667219809873777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_68
+      rect:
+        serializedVersion: 2
+        x: 3622
+        y: 2220
+        width: 245
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6ee448f53a72be0800000000000000
+      internalID: -1502052320067787024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 1662
+        width: 733
+        height: 733
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0fdd331819fa9e0800000000000000
+      internalID: -1607906557840985933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_73
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 2035
+        width: 226
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afedc91cabf763870800000000000000
+      internalID: 8662251373382655738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_74
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 2022
+        width: 194
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe20298242278530800000000000000
+      internalID: 3857089275029892856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_75
+      rect:
+        serializedVersion: 2
+        x: 3637
+        y: 2026
+        width: 212
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56220205c844befc0800000000000000
+      internalID: -3464600118901071259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 1376
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022016b6be5e362e0800000000000000
+      internalID: -2133608999161888224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_77
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 1839
+        width: 220
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e400a9058bc4b42f0800000000000000
+      internalID: -987611338767728562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_78
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 1839
+        width: 229
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f1c172b949ff890800000000000000
+      internalID: -7422050266786291835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_79
+      rect:
+        serializedVersion: 2
+        x: 3626
+        y: 1821
+        width: 239
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9a475eb68c454d0800000000000000
+      internalID: -3146669873888450061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 950
+        width: 290
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b287a3816fe618510800000000000000
+      internalID: 1549641750039656491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_82
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1284
+        width: 1207
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d7e8220b6b063f0800000000000000
+      internalID: -909526257118577251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_83
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1453
+        width: 1324
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65d2f9419bf8d080800000000000000
+      internalID: -9162296840455793298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_84
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 1616
+        width: 204
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fcebe56096d28e0800000000000000
+      internalID: -1716600406878007415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_85
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 1599
+        width: 279
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab438b0bad681ce40800000000000000
+      internalID: 5674965279289390266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_86
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 1619
+        width: 214
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce245156f2fe1ee50800000000000000
+      internalID: 6837008696163517164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_87
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 1420
+        width: 238
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed53b2fc2db192d60800000000000000
+      internalID: 7865848816412079582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_88
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 1418
+        width: 191
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f21b58a2b429e180800000000000000
+      internalID: -9085690423495945483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_89
+      rect:
+        serializedVersion: 2
+        x: 3667
+        y: 1416
+        width: 204
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2014ae30508411d0800000000000000
+      internalID: -3380936338111721425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 4533
+        y: 224
+        width: 312
+        height: 312
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baeee42d09a6b2c30800000000000000
+      internalID: 4335676236510457515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_91
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 272
+        width: 618
+        height: 771
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7456cc102825400800000000000000
+      internalID: 311454268477753313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_92
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 718
+        width: 566
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bf1f48d426cc170800000000000000
+      internalID: 8200037106617285390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_93
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 718
+        width: 513
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a93309bd62df6e00800000000000000
+      internalID: 1040281407643138468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_94
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 718
+        width: 427
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0338b685ca92dea80800000000000000
+      internalID: -8436040706800516304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_95
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 740
+        width: 398
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b851f84f5a00f5010800000000000000
+      internalID: 1179662340166981003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_96
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 738
+        width: 359
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dd174720ee9b380800000000000000
+      internalID: -8954864689738556030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_97
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 726
+        width: 358
+        height: 463
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c53aba09edce1640800000000000000
+      internalID: 5052702232747324865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_98
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 22
+        width: 455
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32de479ea649379b0800000000000000
+      internalID: -5083556367466959581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_99
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 18
+        width: 419
+        height: 619
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303bb60e8e2a06b30800000000000000
+      internalID: 4278598767083238147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_100
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 89
+        width: 353
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c504b7492b29db0800000000000000
+      internalID: -4786567103148696517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_101
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 89
+        width: 349
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882decbbe3f8a3e00800000000000000
+      internalID: 1025289364781847176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_102
+      rect:
+        serializedVersion: 2
+        x: 2846
+        y: 89
+        width: 356
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a061b074286c08a0800000000000000
+      internalID: -6337576069898346332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_103
+      rect:
+        serializedVersion: 2
+        x: 3319
+        y: 89
+        width: 359
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4740056012a077b50800000000000000
+      internalID: 6590747716636116084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Export_EX 2_104
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 98
+        width: 345
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9417e139c5460a0800000000000000
+      internalID: -6889279743029327399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 4172
+        y: 633
+        width: 283
+        height: 283
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da94351fbb071690800000000000000
+      internalID: -7631618128233588015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      1: -6695948575796618793
+      2: -6025582301343152467
+      3: -7631618128233588015
+      4: -2133608999161888224
+      5: 1549641750039656491
+      6: 4335676236510457515
+      7: -1607906557840985933
+      Export_EX 2_0: -5654083910335648924
+      Export_EX 2_1: -2854270746917041903
+      Export_EX 2_10: 2881011669505012873
+      Export_EX 2_100: -4786567103148696517
+      Export_EX 2_101: 1025289364781847176
+      Export_EX 2_102: -6337576069898346332
+      Export_EX 2_103: 6590747716636116084
+      Export_EX 2_104: -6889279743029327399
+      Export_EX 2_11: 8778518177927616428
+      Export_EX 2_12: -3585154080034614059
+      Export_EX 2_13: 6696981403406263006
+      Export_EX 2_14: 5374464856737131339
+      Export_EX 2_15: -8445133382013628666
+      Export_EX 2_16: 111580589646428983
+      Export_EX 2_17: 5859064306098902582
+      Export_EX 2_18: -7012261855320379944
+      Export_EX 2_19: -5488440318447421684
+      Export_EX 2_2: -5479203005567980847
+      Export_EX 2_20: -6530121748577348487
+      Export_EX 2_21: 1800584767278167601
+      Export_EX 2_22: 7060819922821891463
+      Export_EX 2_23: -5766535676997606348
+      Export_EX 2_24: 8372032055601324279
+      Export_EX 2_25: -6619939474172264726
+      Export_EX 2_26: -7837534476072088286
+      Export_EX 2_27: 7493981048584022111
+      Export_EX 2_28: -4435854240367240555
+      Export_EX 2_29: -3806443465335051252
+      Export_EX 2_3: -1304511671351284000
+      Export_EX 2_30: 4970574558878258725
+      Export_EX 2_31: -7685707750697992583
+      Export_EX 2_32: -1359715232533951456
+      Export_EX 2_33: -7741345555568465924
+      Export_EX 2_34: -6253645468503016871
+      Export_EX 2_35: -588224273748480042
+      Export_EX 2_36: -3616019634824207329
+      Export_EX 2_37: -7125263384547869321
+      Export_EX 2_38: -804743720236831863
+      Export_EX 2_39: -2423820332183528106
+      Export_EX 2_4: 657957993875678368
+      Export_EX 2_40: -5780293465706991117
+      Export_EX 2_41: -2003886467919432504
+      Export_EX 2_42: -4611600600627847274
+      Export_EX 2_43: 4692362411106730959
+      Export_EX 2_44: -9019048165997604691
+      Export_EX 2_45: -9157052970175788656
+      Export_EX 2_46: 1716092113354490883
+      Export_EX 2_47: -7142551042975681923
+      Export_EX 2_48: 87451063516225480
+      Export_EX 2_49: -1455864115785172513
+      Export_EX 2_5: -325833316010809440
+      Export_EX 2_50: -6489208316607118271
+      Export_EX 2_51: 953149398595585537
+      Export_EX 2_52: 6634653254724577165
+      Export_EX 2_53: -4298229928188435604
+      Export_EX 2_54: 4490556423506988752
+      Export_EX 2_55: -2999472664641591430
+      Export_EX 2_56: 4179021431674126914
+      Export_EX 2_57: 5152777188444476876
+      Export_EX 2_58: -2339866867300759647
+      Export_EX 2_59: 5691526597803455405
+      Export_EX 2_6: 5161073051732390935
+      Export_EX 2_61: 3825877665071187767
+      Export_EX 2_62: -5786799051534333484
+      Export_EX 2_67: 6188667219809873777
+      Export_EX 2_68: -1502052320067787024
+      Export_EX 2_7: 9037713671503850900
+      Export_EX 2_73: 8662251373382655738
+      Export_EX 2_74: 3857089275029892856
+      Export_EX 2_75: -3464600118901071259
+      Export_EX 2_77: -987611338767728562
+      Export_EX 2_78: -7422050266786291835
+      Export_EX 2_79: -3146669873888450061
+      Export_EX 2_8: 6216605260977066859
+      Export_EX 2_82: -909526257118577251
+      Export_EX 2_83: -9162296840455793298
+      Export_EX 2_84: -1716600406878007415
+      Export_EX 2_85: 5674965279289390266
+      Export_EX 2_86: 6837008696163517164
+      Export_EX 2_87: 7865848816412079582
+      Export_EX 2_88: -9085690423495945483
+      Export_EX 2_89: -3380936338111721425
+      Export_EX 2_9: -5846542348037708189
+      Export_EX 2_91: 311454268477753313
+      Export_EX 2_92: 8200037106617285390
+      Export_EX 2_93: 1040281407643138468
+      Export_EX 2_94: -8436040706800516304
+      Export_EX 2_95: 1179662340166981003
+      Export_EX 2_96: -8954864689738556030
+      Export_EX 2_97: 5052702232747324865
+      Export_EX 2_98: -5083556367466959581
+      Export_EX 2_99: 4278598767083238147
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
