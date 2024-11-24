@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.PlayerLoop;
+using TMPro;
+using System;
 
 public class GameController : Singleton<GameController>
 {
@@ -11,6 +12,7 @@ public class GameController : Singleton<GameController>
     [SerializeField] private GameObject listBlockObj;
     [SerializeField] private GameObject blockPrefab;
     [SerializeField] private GameObject groupEggs; // gr trung gian lưu egg để layer của egg đè lên các layer khác khi move
+    
  
     private BlockController[,] matrixBlocks; 
 
@@ -19,7 +21,7 @@ public class GameController : Singleton<GameController>
 
         matrixBlocks = new BlockController[6, 6];
     }
-    void Start()
+    private void Start()
     {
         Graph.Instance.SetMatrixBlocks(matrixBlocks); //truyền matrix cho graph
         initBlock();
@@ -51,10 +53,23 @@ public class GameController : Singleton<GameController>
         for(int i=1; i<=5 ; i++){
             for(int j=1 ; j<=5 ; j++){
                 BlockController blockController = matrixBlocks[i, j].GetComponent<BlockController>();
-                GameObject egg = ObjectPool.Instance.GetFromPool(Random.Range(0, 3));
+                GameObject egg = ObjectPool.Instance.GetFromPool(UnityEngine.Random.Range(0, 3));
 
-                blockController.setSpriteEgg(egg.GetComponent<Image>().sprite);
+                blockController.setSpriteEgg(egg.GetComponent<Image>().sprite);// block.setEgg()
             }
         }
+    }
+
+    public void GameOver(int score, int level){
+        SaveHighScore(score);
+        SaveLevel(level);
+    }
+    private void SaveHighScore(int score){
+        int scoreData = PlayerPrefs.GetInt(GameConfig.High_Score);
+        PlayerPrefs.SetInt(GameConfig.High_Score, Math.Max(scoreData, score));
+    }
+    private void SaveLevel(int level){
+        int levelData = PlayerPrefs.GetInt(GameConfig.Level_Max);
+        PlayerPrefs.SetInt(GameConfig.Level_Max, Math.Max(levelData, level));
     }
 }

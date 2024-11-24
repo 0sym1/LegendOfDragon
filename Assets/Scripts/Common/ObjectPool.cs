@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ObjectPool : Singleton<ObjectPool>
 {
     private int _amountEgg;
-    private int _amountEggType;
-    private List<List<GameObject>> listObjects;
+    private List<GameObject> listEggObjects;
+    private List<Image> listImagesEgg;
     private List<Sprite> listSprites;
     [SerializeField] private GameObject _object;
     [SerializeField] private GameObject pool;
@@ -16,33 +18,32 @@ public class ObjectPool : Singleton<ObjectPool>
         base.Awake();
         LoadDataEggs();
 
-        _amountEgg = 25;
-        _amountEggType = 14;
+        _amountEgg = 30;
 
-        listObjects = new List<List<GameObject>>();
-        for(int i=0 ; i < _amountEggType ; i++){
-            List<GameObject> listTMP = new List<GameObject>();
-            for(int j=0 ; j<_amountEgg ; j++){
-                GameObject tmp = Instantiate(_object);
-                tmp.transform.parent = pool.transform;
-                Image img = tmp.GetComponent<Image>();
-                img.sprite = listSprites[i];
-                tmp.SetActive(false);
-                listTMP.Add(tmp);
-            }
-            listObjects.Add(listTMP);
+        listEggObjects = new List<GameObject>();
+        listImagesEgg = new List<Image>();
+
+        for(int i=0 ; i<_amountEgg ; i++){
+            GameObject tmp = Instantiate(_object);
+            Image imgTmp = tmp.GetComponent<Image>();
+            tmp.transform.parent = pool.transform;
+            tmp.SetActive(false);
+
+            listImagesEgg.Add(imgTmp);
+            listEggObjects.Add(tmp);
         }
     }
 
     public GameObject GetFromPool(int id){
-        foreach(GameObject obj in listObjects[id]){
-            if(obj.activeInHierarchy == false){
-                return obj;
+        for(int i=0 ; i < _amountEgg ; i++){
+            if(listEggObjects[i].activeInHierarchy == false){
+                listImagesEgg[i].sprite = listSprites[id];
+                return listEggObjects[i];
             }
         }
+
         GameObject tmp = Instantiate(_object);
         tmp.SetActive(false);
-        listObjects[id].Add(tmp);
         _amountEgg++;
         return tmp;
     }
@@ -50,6 +51,14 @@ public class ObjectPool : Singleton<ObjectPool>
     private void LoadDataEggs(){
         listSprites = new List<Sprite>();
         Sprite[] sprites = Resources.LoadAll<Sprite>(GameConfig.Eggs_Sprite_Path);
+        //sắp xếp theo số ở tên
+        sprites = sprites.OrderBy(res => int.Parse(Regex.Match(res.name, @"\d+").Value)).ToArray();
         listSprites.AddRange(sprites);
+
+       
+    }
+
+    public List<Sprite> GetListSprite(){
+        return listSprites;
     }
 }

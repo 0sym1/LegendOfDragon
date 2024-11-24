@@ -7,6 +7,11 @@ public class Graph : Singleton<Graph>
 {
     private BlockController[,] matrixBlocks; 
     private int maxPoint;
+    private int amount;
+
+    public int GetAmount(){
+        return amount;
+    }
     public int GetMaxPoint(){
         return maxPoint;
     }
@@ -16,6 +21,7 @@ public class Graph : Singleton<Graph>
 
     //point=0 thì chỉ ktra các ptu của đồ thị, point=1 thì gắn điểm cho các thành phần đó
     public void FindTPLT(int x, int y, int point){
+        amount = 0;
         string nameEgg = matrixBlocks[x, y].GetNameEgg();
         matrixBlocks[x, y].SetPoint(point);
 
@@ -25,6 +31,7 @@ public class Graph : Singleton<Graph>
         maxPoint = 0;
 
         while(queue.Count > 0){
+            amount++;
             BlockController block = queue.Dequeue();
 
             maxPoint = Math.Max(maxPoint, block.GetPoint());

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using DG.Tweening;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -20,75 +21,54 @@ public class BlockController : MonoBehaviour
 
 
     private Vector3 positonEgg;
-    // private RectTransform rectTransform;
     private int point;
     private string status;
+    private bool otherBlockIsSelected;
     private int x, y;
 
     private void Start(){
-        // rectTransform = egg.GetComponent<RectTransform>();
         StartCoroutine(SetPositionEgg());
         status = GameConfig.normal;
+        otherBlockIsSelected = false;
         ResetStatus();
+
+        //phát broadcast để cập nhật level khi mới init, level=số trong tên sprte egg
+        Messenger.Broadcast(EventKey.LEVEL_UP, int.Parse(Regex.Match(GetNameEgg(), @"\d+").Value));
     }
 
-    void OnEnable(){
+    private void OnEnable(){
         Messenger.AddListener(EventKey.SELECT, ResetStatus);
         Messenger.AddListener<BlockController>(EventKey.EAT_EGG, ClearBlock);
         Messenger.AddListener(EventKey.FILL_EGG, FallBlock);
     }
 
-    void OnDisable() {
+    private void OnDisable() {
         Messenger.RemoveListener(EventKey.SELECT, ResetStatus);
         Messenger.RemoveListener<BlockController>(EventKey.EAT_EGG, ClearBlock);
         Messenger.RemoveListener(EventKey.FILL_EGG, FallBlock);
     }
 
-    public void SetPoint(int point){
-        this.point = point;
-    }
-    public int GetPoint(){
-        return point;
-    }
+    public void SetPoint(int point){this.point = point;}
+    public int GetPoint(){return point;}
 
     public void setXY(int x, int y){
         this.x = x;
         this.y = y;
     }
-    public int getX(){
-        return x;
-    }
-    public int getY(){
-        return y;
-    }
-    public void setSpriteGround(Sprite sprite){
-        imgGround.sprite = sprite;
-    }
-    public void setSpriteEgg(Sprite sprite){
-        imgEgg.sprite = sprite;
-    }
-    public Sprite GetSpriteEgg(){
-        return imgEgg.sprite;
-    }
+    public int getX(){ return x;}
+    public int getY(){ return y;}
+    public void setSpriteGround(Sprite sprite){imgGround.sprite = sprite;}
+    public void setSpriteEgg(Sprite sprite){imgEgg.sprite = sprite;}
+    public Sprite GetSpriteEgg(){return imgEgg.sprite;}
     public string GetNameEgg(){
         return egg.GetComponent<Image>().sprite.name;
         // return imgEgg.sprite.name;
     }
-    public void SetStatus(string status){
-        this.status = status;
-    }
-    public string GetStatus(){
-        return status;
-    }
-    public void SetEgg(GameObject egg){
-        this.egg = egg;
-    }
-    public GameObject GetEgg(){
-        return egg;
-    }
-    public Vector3 GetPositionEgg(){
-        return positonEgg;
-    }
+    public void SetStatus(string status){ this.status = status;}
+    public string GetStatus(){ return status;}
+    public void SetEgg(GameObject egg){ this.egg = egg;}
+    public GameObject GetEgg(){ return egg;}
+    public Vector3 GetPositionEgg(){ return positonEgg;}
 
     public void OnClickBlock(){
         if(status.Equals(GameConfig.normal)){
@@ -117,7 +97,6 @@ public class BlockController : MonoBehaviour
     }
 
     private void ClearBlock(BlockController block){
-        Debug.Log("|| " + x + " " + y + " " + egg.transform.position);
         if(status.Equals(GameConfig.selected) && point > 0){
             BlockController blockUp = Graph.Instance.GetBlockUp(this);
             BlockController blockDown = Graph.Instance.GetBlockDown(this);
@@ -139,14 +118,13 @@ public class BlockController : MonoBehaviour
                 destination = blockLeft.GetPositionEgg();
             }
 
-            StartCoroutine(EggMovement(destination, point));
+            StartCoroutine(EggMovement(destination, point, block));
         }
     }
     public void FallBlock(){
         //block hang dau
         if(x == 1 && status.Equals(GameConfig.empty)){
             egg = SpawnEggs.Instance.GetNewEgg(1, 3, transform.position, distanceEggMoveY, speedEggMove);
-            Debug.Log(x + " " + y + " " + egg.transform.position);
             ResetStatus();
             SetParentEgg(this);
         }
@@ -170,7 +148,7 @@ public class BlockController : MonoBehaviour
         ResetStatus();
     }
 
-    private IEnumerator EggMovement(Vector3 destination, int delayPoint){
+    private IEnumerator EggMovement(Vector3 destination, int delayPoint, BlockController blockEnd){
         yield return new WaitForSeconds((Graph.Instance.GetMaxPoint() - delayPoint)*speedEggMove);
         if(point > 1){
             ReturnEggToPool();
@@ -183,20 +161,32 @@ public class BlockController : MonoBehaviour
             status = GameConfig.empty;
 
             yield return new WaitForSeconds(Graph.Instance.GetMaxPoint() * speedEggMove); //delay để khi nào tất cả trứng di chuyển xong mới cho fall
+
             Messenger.Broadcast(EventKey.FILL_EGG);
         }
-        else ResetStatus();
+        else{
+            int amount = Graph.Instance.GetAmount();
+            int level = int.Parse(Regex.Match(GetNameEgg(), @"\d+").Value);
+
+            if(amount > 1){
+                Debug.Log(level + " " + imgEgg.sprite.name);
+                Messenger.Broadcast(EventKey.SCORE_INCREASE, amount, level);
+                Messenger.Broadcast(EventKey.LEVEL_UP, level);
+                GamePanel.Instance.ResetTimeline();
+                LevelUpSprite();
+            }
+            ResetStatus();
+        }
     }
 
     public void ResetStatus(){
-        MoveDown();
+        if(status == GameConfig.selected) MoveDown();
         status = GameConfig.normal;
         point = -1;
     }
 
     private void SetParentEgg(BlockController block){
         egg.transform.parent = block.transform; //tra lai cho trung con cua block
-        // rectTransform.anchoredPosition = positonEgg;
     }
     private void ReturnEggToPool(){
         egg.transform.parent = GameController.Instance.GetGroupEggs().transform;
@@ -204,5 +194,15 @@ public class BlockController : MonoBehaviour
     private IEnumerator SetPositionEgg(){
         yield return new WaitForSeconds(0.2f);
         positonEgg = egg.transform.position;
+    }
+    private void LevelUpSprite(){
+        List<Sprite> sprites = ObjectPool.Instance.GetListSprite();
+        imgEgg = egg.GetComponent<Image>();
+        for(int i=0 ; i<sprites.Count; i++){
+            if(sprites[i].name.Equals(imgEgg.sprite.name)){
+                imgEgg.sprite = sprites[Math.Min(sprites.Count-1, i+1)];
+                break;
+            }
+        }
     }
 }
