@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.hungnt.rainbowfolder": {
+      "version": "https://github.com/HungNT-Packages/HungNT-RainbowFolder.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "50ac466e17044ecdc9175aed934a642059d3cce5"
+    },
     "com.unity.2d.animation": {
       "version": "9.1.0",
       "depth": 1,
@@ -225,6 +232,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.wooshii.hierarchydecorator": {
+      "version": "https://github.com/WooshiiDev/HierarchyDecorator.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2590c6a14a7230b8571383c379124c32d0712090"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
