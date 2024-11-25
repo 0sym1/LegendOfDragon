@@ -14,6 +14,7 @@ public static class GameConfig
     //Path
     public const string Eggs_Sprite_Path = "EggsSprite";
     public const string Panel_Prefabs_Path = "Prefabs/Panel";
+    public const string Panel_Noti_Prefabs_Path = "Prefabs/Panel/Noti";
 
     //Panel name
     public const string AchievementPanel_Name = "AchievementPanel";
@@ -21,6 +22,8 @@ public static class GameConfig
     public const string GiftPanel_Name = "GiftPanel";
     public const string HelpPanel_Name = "HelpPanel";
     public const string SettingPanel_Name = "SettingPanel";
+    public const string BackHomePanel_Noti_Name = "BackHomeNoti";
+    public const string RestartPanel_Noti_Name = "RestartNoti";
 
     //PlayerPrefs
     public const string Music = "isMusic";

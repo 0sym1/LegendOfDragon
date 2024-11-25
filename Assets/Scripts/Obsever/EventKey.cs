@@ -9,4 +9,5 @@
     LEVEL_UP,
     /////// 
     GAME_OVER,
+    CONTINUE_GAME,
 }

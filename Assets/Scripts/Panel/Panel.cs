@@ -5,6 +5,6 @@ using UnityEngine;
 public class Panel : MonoBehaviour
 {
     protected string panelName;
-    public void Open(){gameObject.SetActive(true);}
-    public void Close(){Destroy(gameObject);}
+    public virtual void Open(){gameObject.SetActive(true);}
+    public virtual void Close(){Destroy(gameObject);}
 }

@@ -16,10 +16,12 @@ public class GamePanel : Singleton<GamePanel>
     private void OnEnable(){
         Messenger.AddListener<int, int>(EventKey.SCORE_INCREASE, PlusScore);
         Messenger.AddListener<int>(EventKey.LEVEL_UP, LevelUP);
+        Messenger.AddListener(EventKey.CONTINUE_GAME, DisPauseGame);
     }
     private void OnDisable(){
         Messenger.RemoveListener<int, int>(EventKey.SCORE_INCREASE, PlusScore);
         Messenger.RemoveListener<int>(EventKey.LEVEL_UP, LevelUP);
+        Messenger.RemoveListener(EventKey.CONTINUE_GAME, DisPauseGame);
     }
 
     private void Start(){
@@ -50,11 +52,26 @@ public class GamePanel : Singleton<GamePanel>
     public void PauseGame(){
         pauseGame = true;
     }
+    public void DisPauseGame(){
+        pauseGame = false;
+    }
 
-    public void OnClickHomeBtn(){}
-    public void OnClickRestartBtn(){}
-    public void OnClickPauseBtn(){}
-    public void OnClickHelpBtn(){}
+    public void OnClickHomeBtn(){
+        PauseGame();
+        PanelManager.Instance.OpenPanel(GameConfig.BackHomePanel_Noti_Name);
+    }
+    public void OnClickRestartBtn(){
+        PauseGame();
+        PanelManager.Instance.OpenPanel(GameConfig.RestartPanel_Noti_Name);
+    }
+    public void OnClickPauseBtn(){
+        PauseGame();
+        PanelManager.Instance.OpenPanel(GameConfig.SettingPanel_Name);
+    }
+    public void OnClickHelpBtn(){
+        PauseGame();
+        PanelManager.Instance.OpenPanel(GameConfig.HelpPanel_Name);
+    }
     public void OnClickSkillBtn(){}
 }
 

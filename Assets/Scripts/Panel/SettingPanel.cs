@@ -19,6 +19,11 @@ public class SettingPanel : Panel
         LoadSound();
     }
 
+    public override void Close(){
+        base.Close();
+        Messenger.Broadcast(EventKey.CONTINUE_GAME);
+    }
+
     private void LoadMusic(){
         isMusic = PlayerPrefs.GetInt(GameConfig.Music);
         if(isMusic == 0) isMusic = 1;

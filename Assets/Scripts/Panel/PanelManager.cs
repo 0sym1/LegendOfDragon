@@ -17,6 +17,7 @@ public class PanelManager : Singleton<PanelManager>
         Panel[] panels = Resources.LoadAll<Panel>(GameConfig.Panel_Prefabs_Path);
         foreach (Panel panel in panels){
             panelDictionary.Add(panel.name, panel);
+            Debug.Log(panel.name);
         }
     }
 
