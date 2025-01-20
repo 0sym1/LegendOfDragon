@@ -63,12 +63,15 @@ public class GameController : Singleton<GameController>
     public void GameOver(int score, int level){
         SaveHighScore(score);
         SaveLevel(level);
+        PanelManager.Instance.OpenPanel(GameConfig.GameOverPanel_Name);
     }
     private void SaveHighScore(int score){
+        PlayerPrefs.SetInt(GameConfig.Score, score); //lưu để hiện score trong panel gameover
         int scoreData = PlayerPrefs.GetInt(GameConfig.High_Score);
         PlayerPrefs.SetInt(GameConfig.High_Score, Math.Max(scoreData, score));
     }
     private void SaveLevel(int level){
+        PlayerPrefs.SetInt(GameConfig.Level, level); //lưu để hiện level trong panel gameover
         int levelData = PlayerPrefs.GetInt(GameConfig.Level_Max);
         PlayerPrefs.SetInt(GameConfig.Level_Max, Math.Max(levelData, level));
     }

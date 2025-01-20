@@ -22,6 +22,7 @@ public static class GameConfig
     public const string GiftPanel_Name = "GiftPanel";
     public const string HelpPanel_Name = "HelpPanel";
     public const string SettingPanel_Name = "SettingPanel";
+    public const string GameOverPanel_Name = "GameOverPanel";
     public const string BackHomePanel_Noti_Name = "BackHomeNoti";
     public const string RestartPanel_Noti_Name = "RestartNoti";
 
@@ -30,5 +31,7 @@ public static class GameConfig
     public const string Sound = "isSound";
     public const string Level_Max = "LevelMax";
     public const string High_Score = "HighScore";
+    public const string Score = "Score";
+    public const string Level = "Level";
 
 }

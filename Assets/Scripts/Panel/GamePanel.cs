@@ -36,6 +36,7 @@ public class GamePanel : Singleton<GamePanel>
             timeLineImg.fillAmount -= Time.deltaTime/timePlay;
             if(timeLineImg.fillAmount <= 0){
                 GameController.Instance.GameOver(int.Parse(scoreTxt.text), int.Parse(levelTxt.text));
+                pauseGame = true;
             }
         }
     }

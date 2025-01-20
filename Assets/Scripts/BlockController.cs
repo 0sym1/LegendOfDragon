@@ -13,6 +13,7 @@ public class BlockController : MonoBehaviour
     [SerializeField] private GameObject egg;
     [SerializeField] private Image imgGround;
     [SerializeField] private Image imgEgg;
+    [SerializeField] private Image effectImg;
     [SerializeField] private float lengthUp;
     [SerializeField] private float speedUp;
     [SerializeField] private float distanceEggMoveX;
@@ -87,6 +88,8 @@ public class BlockController : MonoBehaviour
         postitionCurrent = new Vector3(postitionCurrent.x, postitionCurrent.y + lengthUp, postitionCurrent.z);
         gameObject.transform.DOMove(postitionCurrent, speedUp);
         status = GameConfig.selected;
+
+        effectImg.gameObject.SetActive(true); //bật effect chọn
     }
     public void MoveDown(){
         if(status.Equals(GameConfig.selected)){
@@ -166,14 +169,15 @@ public class BlockController : MonoBehaviour
         }
         else{
             int amount = Graph.Instance.GetAmount();
-            int level = int.Parse(Regex.Match(GetNameEgg(), @"\d+").Value);
 
             if(amount > 1){
-                Debug.Log(level + " " + imgEgg.sprite.name);
+                LevelUpSprite();
+
+                int level = int.Parse(Regex.Match(GetNameEgg(), @"\d+").Value);
+                
                 Messenger.Broadcast(EventKey.SCORE_INCREASE, amount, level);
                 Messenger.Broadcast(EventKey.LEVEL_UP, level);
                 GamePanel.Instance.ResetTimeline();
-                LevelUpSprite();
             }
             ResetStatus();
         }
@@ -183,6 +187,7 @@ public class BlockController : MonoBehaviour
         if(status == GameConfig.selected) MoveDown();
         status = GameConfig.normal;
         point = -1;
+        effectImg.gameObject.SetActive(false);
     }
 
     private void SetParentEgg(BlockController block){

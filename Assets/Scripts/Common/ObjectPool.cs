@@ -61,4 +61,7 @@ public class ObjectPool : Singleton<ObjectPool>
     public List<Sprite> GetListSprite(){
         return listSprites;
     }
+    public Sprite GetSpriteEgg(int id){
+        return listSprites[id];
+    }
 }
